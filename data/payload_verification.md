@@ -1,0 +1,3 @@
+We support request payload signatures via asymmetric key signing. This allows you to verify that a request came from GitHub and was intended for your agent plugin. All agent requests will contain 2 headers: Github-Public-Key-Identifier and Github-Public-Key-Signature.
+
+To verify the signature, you can compare the signature provided in the Github-Public-Key-Signature header with a signed copy of the request body, using a public key found at https://api.github.com/meta/public_keys/copilot_api. The public signature verification docs is a great reference for how to do this and provides a few language examples. Below is a simple example in typescript.
