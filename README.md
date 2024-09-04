@@ -1,4 +1,4 @@
-# Function Calling Extensions Sample
+# Retrevial Augmented Generation Extensions Sample
 
 > [!NOTE]
 > To use Copilot Extensions, you must be enrolled in the limited public beta.
@@ -8,7 +8,7 @@
 > For enrolled organizations or enterprises with a Copilot Business or Copilot Enterprise subscription, organization owners and enterprise administrators can grant access to Copilot Extensions.
 
 ## Description
-This project is a Go application that demonstrates how to use function calling in a GitHub Copilot Extension.
+This project is a Go application that demonstrates how to use retrevial augmented generation in a GitHub Copilot Extension.
 
 ## Prerequisites
 
