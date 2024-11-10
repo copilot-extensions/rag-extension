@@ -106,7 +106,7 @@ func (s *Service) generateCompletion(ctx context.Context, integrationID, apiToke
 	var messages []copilot.ChatMessage
 
 	// Create embeddings from user messages
-	for i := len(req.Messages) - 1; i >= 0; i++ {
+	for i := len(req.Messages) - 1; i >= 0; i-- {
 		msg := req.Messages[i]
 		if msg.Role != "user" {
 			continue
