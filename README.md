@@ -4,7 +4,7 @@
 > Copilot Extensions are in public beta and may be subject to change.
 
 ## Description
-This project is a Go application that demonstrates how to use retrevial augmented generation in a GitHub Copilot Extension.
+This project is a Go application that demonstrates how to use retrevial augmented generation in an agent-based GitHub Copilot Extension.
 
 ## Prerequisites
 
