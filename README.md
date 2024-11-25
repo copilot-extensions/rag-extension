@@ -1,14 +1,10 @@
 # Retrieval Augmented Generation Extensions Sample
 
 > [!NOTE]
-> To use Copilot Extensions, you must be enrolled in the limited public beta.
-> 
-> All enrolled users with a GitHub Copilot Individual subscription can use Copilot Extensions.
-> 
-> For enrolled organizations or enterprises with a Copilot Business or Copilot Enterprise subscription, organization owners and enterprise administrators can grant access to Copilot Extensions.
+> Copilot Extensions are in public beta and may be subject to change.
 
 ## Description
-This project is a Go application that demonstrates how to use retrieval augmented generation in a GitHub Copilot Extension.
+This project is a Go application that demonstrates how to use retrieval augmented generation in an agent-based GitHub Copilot Extension.
 
 ## Prerequisites
 
@@ -72,3 +68,10 @@ Test out the agent with the following commands!
 | --- |--- |
 | User asking `@agent` how to configure a Copilot extension | `@agent How do I configure a copilot extension?` |
 | User asking `@agent` what a Copilot extension looks like | `@agent What is the response format for a copilot extension?` |
+
+## Copilot Extensions Documentation
+- [Using Copilot Extensions](https://docs.github.com/en/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat)
+- [About building Copilot Extensions](https://docs.github.com/en/copilot/building-copilot-extensions/about-building-copilot-extensions)
+- [Set up process](https://docs.github.com/en/copilot/building-copilot-extensions/setting-up-copilot-extensions)
+- [Communicating with the Copilot platform](https://docs.github.com/en/copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension/configuring-your-copilot-agent-to-communicate-with-the-copilot-platform)
+- [Communicating with GitHub](https://docs.github.com/en/copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension/configuring-your-copilot-agent-to-communicate-with-github)
