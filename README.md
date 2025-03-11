@@ -1,8 +1,5 @@
 # Retrieval Augmented Generation Extensions Sample
 
-> [!NOTE]
-> Copilot Extensions are in public beta and may be subject to change.
-
 ## Description
 This project is a Go application that demonstrates how to use retrieval augmented generation in an agent-based GitHub Copilot Extension.
 
