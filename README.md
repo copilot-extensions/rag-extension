@@ -67,6 +67,31 @@ go run .
 4. Instale sua aplicação em (`https://github.com/apps/<nome_da_aplicacao>`).
 5. Agora, no GitHub Copilot (`https://github.com/copilot`), você pode mencionar seu agente usando o nome da sua aplicação.
 
+### Diagrama Arquitetura
+
+1. O **usuário** faz uma requisição para o servidor Go.
+2. O servidor Go:
+    - Processa arquivos e gera embeddings.
+    - Lida com consultas ao agente.
+    - Gerencia o fluxo de autenticação OAuth.
+3. O **ngrok** expõe o servidor local para acesso externo.
+4. O **Github** é usado para autenticação OAuth.
+
+### Diagrama (Visual)
+
+```
+[Usuário] --> [Servidor Go]
+    |               |
+    |               +--> [Processamento de Arquivos]
+    |               +--> [Geração de Embeddings]
+    |               +--> [Consulta ao Agente]
+    |
+[ngrok] <-->  [Servidor Go]
+[GitHub] <-->  [Servidor Go] (Autenticação OAuth)
+```
+
+
+
 ## O Que Ele Pode Fazer
 
 Teste o agente com os seguintes comandos:
