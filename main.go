@@ -131,7 +131,7 @@ func run() error {
 			return
 		}
 
-		chunkSize := 5000
+		chunkSize := 20000
 		chunkOverlap := 100
 		embeddingService := embeddings.NewService(chunkSize, chunkOverlap, integrationID, token)
 

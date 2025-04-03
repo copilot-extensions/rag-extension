@@ -18,7 +18,6 @@ import (
 	"path/filepath"
 	"sort"
 	"strings"
-
 	"github.com/copilot-extensions/rag-extension/copilot"
 )
 

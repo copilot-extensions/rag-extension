@@ -1,0 +1,34 @@
+# Compilados do Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Diretórios de build
+/build/
+bin/
+out/
+
+# Dependências gerenciadas pelo Go Modules
+/vendor/
+
+# Arquivos de cache e temporários
+*.log
+*.tmp
+*.out
+*.swp
+*.bak
+*.old
+
+# Configurações do IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de ambiente
+.env
+
+# Outros arquivos gerados
+coverage.out

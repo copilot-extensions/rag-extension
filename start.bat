@@ -26,10 +26,10 @@ echo URL capturada: %FQDN%
 REM Atualizar o arquivo .env com a URL gerada
 echo Atualizando o arquivo .env...
 (
-    echo NGROK_AUTHTOKEN=cr_2uphmpKzZjNBykTQezoRofvuNk3
+    echo NGROK_AUTHTOKEN=<id_ngrok>
     echo PORT=8080
-    echo CLIENT_ID=Iv23lixxrHcMyR5nFWeY
-    echo CLIENT_SECRET=4b9899a7cc71892733d32cdffd3e0de49c838dfb
+    echo CLIENT_ID=<client id do app github>
+    echo CLIENT_SECRET=<client secret do app github>
     echo FQDN=%FQDN%
 ) > .env
 
