@@ -39,7 +39,7 @@ func NewService(pubKey *ecdsa.PublicKey) *Service {
 }
 
 func (s *Service) ChatCompletion(w http.ResponseWriter, r *http.Request) {
-	sig := r.Header.Get("Github-Public-Key-Signature")
+	sig := r.Header.Get("X-GitHub-Public-Key-Signature")
 
 	body, err := io.ReadAll(r.Body)
 	if err != nil {
